@@ -1,0 +1,58 @@
+.Formato
+{
+    display: grid;
+    grid-gap: 1px;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+
+    align-items: center;
+}
+
+.Titulo
+{
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
+
+    justify-items: center;
+    align-items: center;
+}
+
+.Barra
+{
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+.Barra2
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    align-items: center;
+    justify-content: space-between;
+
+    list-style: none;
+}
+
+.Formulario
+{
+    grid-column: 1 / 4;
+    grid-row: 3 / 4;
+
+    justify-items: center;
+}
+
+.Resultados
+{
+    grid-column: 1 / 4;
+    grid-row: 4 / 5;
+
+    justify-items: center;
+}
+
+.Pie
+{
+    grid-column: 1 / 3;
+    grid-row: 5 / 6;
+}

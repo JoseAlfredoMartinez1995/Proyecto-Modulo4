@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang = "es">
+    <head>
+        <meta charset = "utf-8">
+        <meta name = "author" content="José Alfredo Martínez Martínez">
+        <meta name = "description" content="Proyecto del módulo 4 de Front End Web developer">
+        
+        <title>Trabajo Final</title>
+        <link rel = "stylesheet" href = "Estilos.css">
+    </head>
+
+    <body class = "Formato">
+        <header class = "Titulo">
+            <h1>App del clima</h1>
+        </header>
+
+        <nav class = "Barra">
+            <ul class = "Barra2">
+                <li><a href = "#">Clima</a></li>
+                <li><a href = "https://weatherstack.com">Datos</a></li>
+                <li><a href = "https://facebook.com">Ayuda</a></li>
+            </ul>
+        </nav>
+
+        <div class = "Formulario">
+            <h2>Utilice este sitio para obtener el clima de cualquier ciudad en el mundo</h2>
+            <textarea id = "ciudad" style = "width: 300px; height: 40px;">Mexico City</textarea>
+            <button id = "buscar" style = "width: 300px; height: 40px;">Consultar</button>
+        </div>
+
+        <div class = "Resultados">
+            <h3>Resultados de su búsqueda</h3>
+            <label id = "clima">Resultados de consulta se muestran aquí</p>
+        </div>
+
+        <footer class = "Pie">
+            <p>Creado por José Alfredo Martínez</p>
+            <p>Módulo 4 Diplomado Front End Web Developer</p>
+            <p>Universidad del Valle de México</p>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+        <script type = "module" src = "./index.js"></script>
+
+    </body>
+</html>
